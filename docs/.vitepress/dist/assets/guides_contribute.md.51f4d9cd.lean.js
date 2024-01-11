@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.fec6b3ba.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guides/contribute.md"}'),o={name:"guides/contribute.md"};function a(c,n,s,i,d,p){return r(),t("div")}const m=e(o,[["render",a]]);export{u as __pageData,m as default};

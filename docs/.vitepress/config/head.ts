@@ -1,16 +1,16 @@
 export const linkArr: Array<Record<string, any>> = [
     {
-        link: '/guides/introduce',
+        link: '/docs/guides/introduce',
         text: '指南',
         crux: '/guides/'
     },
     {
-        link: '/components/installer',
+        link: '/docs/components/installer',
         text: '组件',
         crux: '/components/'
     },
     {
-        link: '/applay/example',
+        link: '/docs/applay/example',
         text: '实践',
         crux: '/applay/'
     }

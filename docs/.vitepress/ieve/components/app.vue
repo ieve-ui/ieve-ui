@@ -6,10 +6,10 @@
         <h1>IEVE-UI</h1>
         <p>一套基于Vue3的企业级组件库</p>
         <ul>
-            <li @click="quickJump('/guides/introduce')">指南</li>
-            <li @click="quickJump('/components/installer')">组件</li>
-            <li @click="quickJump('/applay/example')">实践</li>
-            <li @click="quickJump('/components/overview')">概览</li>
+            <li @click="quickJump('/docs/guides/introduce')">指南</li>
+            <li @click="quickJump('/docs/components/installer')">组件</li>
+            <li @click="quickJump('/docs/applay/example')">实践</li>
+            <li @click="quickJump('/docs/components/overview')">概览</li>
             <li>
                 <a href="https://github.com/mwanglong/ieve-ui" title="GitHub" target="_blank">
                     <!-- <ElIcon :size="20">
@@ -41,7 +41,7 @@ const quickJump = async (link: string) => {
 const backApp = () => {
     isHome.value = false;
     activeUrl.value = '';
-    router.go('/');
+    router.go('/docs');
 }
 </script>
 <style lang="scss">

@@ -1,5 +1,6 @@
 // .vitepress/config.js
 export default {
+  base: '/docs/',
   title: 'ieve',
   titleTemplate: ':title - A enterprise component library',
   description: '测试',
