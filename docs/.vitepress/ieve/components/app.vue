@@ -41,7 +41,7 @@ const quickJump = async (link: string) => {
 const backApp = () => {
     isHome.value = false;
     activeUrl.value = '';
-    router.go('/docs');
+    router.go('/docs/');
 }
 </script>
 <style lang="scss">
