@@ -1,0 +1,6 @@
+@mixin font-style($size, $weight: normal, $color: #1c1c1f) {
+    font-size: $size;
+    font-family: "Microsoft Yahei", Palatino, Arial, sans-serif;
+    font-weight: $weight;
+    color: $color;
+}

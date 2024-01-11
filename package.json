@@ -1,0 +1,31 @@
+{
+  "name": "ieve-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "pnpm run --dir docs dev",
+    "docs:build": "pnpm run -C docs build",
+    "docs:serve": "pnpm run -C docs serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@sc.hyc.cn:long.wang/ui-ieve.git"
+  },
+  "keywords": [
+    "Vue",
+    "ieve",
+    "ieve-ui"
+  ],
+  "author": "Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.7",
+    "eslint": "^8.56.0",
+    "sass": "^1.69.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "vue": "^3.4.6"
+  }
+}
